@@ -31,6 +31,10 @@ while True:
     elif choice == "2":
         for port in switch.getPorts():
             print(port.getPortNr() + " " + port.getPortVlan())
+    elif choice == "3":
+        switch = Switch(interpreter.getDeviceName(net_connect.find_prompt()))
+        switch.addVlanList(net_connect.send_command("show vlan"))
+        switch.addPortToPorts(net_connect.send_command("show vlan port all"))
     elif choice == "9":
         net_connect.disconnect()
         break
