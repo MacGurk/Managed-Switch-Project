@@ -7,4 +7,8 @@ class Vlan:
         self.description = description
         self.number = number
 
-    
+    def getDescription(self):
+        return self.description
+
+    def getNumber(self):
+        return self.number

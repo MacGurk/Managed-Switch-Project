@@ -1,4 +1,4 @@
-def createListOfOutputOnBreak(output):
+def createListOfOutputOnLinebreak(output):
     return output.rstrip("\n").split("\n")
 
 def getDeviceName(string):
