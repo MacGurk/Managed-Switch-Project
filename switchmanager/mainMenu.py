@@ -1,2 +1,8 @@
 def printMenu():
-    return "--------------\n|  Main Menu |\n--------------\nOptions:\n1: Show VLANs\n2: Show Vlan of all Ports\n9: Ends the Application\n"
+    print("--------------")
+    print("|  Main Menu |")
+    print("--------------")
+    print("Options:")
+    print("1: Show VLANs")
+    print("2: Show Vlan of all Ports")
+    print("9: Quit")
