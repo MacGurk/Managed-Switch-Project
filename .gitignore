@@ -104,4 +104,4 @@ venv.bak/
 .mypy_cache/
 
 # Code Runner Visual Studio Code
-tempCodeRunnderFile.py
+tempCodeRunnerFile.py
